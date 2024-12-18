@@ -1,0 +1,548 @@
+2024-12-18 06:20:16 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x13ce477b0; archive(resolved)="<IDEArchive: 0x600003be7b10>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team(resolved)="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x13ce477b0; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionProcessingPipelineContext: 0x13e374000; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x13e13bef0; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x13e134730; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x13ce65c70; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x13ce54140; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x13e135940; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x13e1363c0; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x13e138980; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="<IDEProvisioningBasicTeam: 0x600001130920; teamID='D8KGVS7M86', teamName='JYOTHY LABS LIMITED'>">
+	<IDEDistributionContext: 0x10f705790; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="(null)">
+	<IDEDistributionContext: 0x13cffb460; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="(null)">
+	<IDEDistributionContext: 0x10f7047e0; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="(null)">
+	<IDEDistributionContext: 0x13ce40ed0; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000012b6160>", team="(null)">
+	<IDEDistributionContext: 0x13e005140; archive = "<IDEArchive: 0x600003be7b10>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x13ce477b0>
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2024-12-18 06:20:16 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app' '/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app'
+2024-12-18 06:20:16 +0000  >>> Copying /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app 
+2024-12-18 06:20:16 +0000  copying file ./de.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  19030 bytes for ./de.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-12-18 06:20:16 +0000  22751 bytes for ./_CodeSignature/CodeResources
+2024-12-18 06:20:16 +0000  copying file ./ur.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  5189 bytes for ./ur.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./he.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  15335 bytes for ./he.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ar.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  18266 bytes for ./ar.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./el.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  5806 bytes for ./el.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./zh-Hans.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  11963 bytes for ./zh-Hans.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ja.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  14272 bytes for ./ja.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ja.lproj/InfoPlist.strings ... 
+2024-12-18 06:20:16 +0000  73 bytes for ./ja.lproj/InfoPlist.strings
+2024-12-18 06:20:16 +0000  copying file ./sq.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  21098 bytes for ./sq.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./en.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  14415 bytes for ./en.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./en.lproj/InfoPlist.strings ... 
+2024-12-18 06:20:16 +0000  75 bytes for ./en.lproj/InfoPlist.strings
+2024-12-18 06:20:16 +0000  copying file ./uk.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  21819 bytes for ./uk.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./nb-NO.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  6355 bytes for ./nb-NO.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./es.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  20929 bytes for ./es.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./sw.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  65 bytes for ./sw.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./Aidoku ... 
+2024-12-18 06:20:16 +0000  4981920 bytes for ./Aidoku
+2024-12-18 06:20:16 +0000  copying file ./eo.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  5916 bytes for ./eo.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./it.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  17389 bytes for ./it.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./bg.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  23403 bytes for ./bg.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./AppIcon60x60@2x.png ... 
+2024-12-18 06:20:16 +0000  3983 bytes for ./AppIcon60x60@2x.png
+2024-12-18 06:20:16 +0000  copying file ./ZIPFoundation_ZIPFoundation.bundle/PrivacyInfo.xcprivacy ... 
+2024-12-18 06:20:16 +0000  599 bytes for ./ZIPFoundation_ZIPFoundation.bundle/PrivacyInfo.xcprivacy
+2024-12-18 06:20:16 +0000  copying file ./ZIPFoundation_ZIPFoundation.bundle/Info.plist ... 
+2024-12-18 06:20:16 +0000  702 bytes for ./ZIPFoundation_ZIPFoundation.bundle/Info.plist
+2024-12-18 06:20:16 +0000  copying file ./sr.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  22262 bytes for ./sr.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ne.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  22124 bytes for ./ne.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ml.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  815 bytes for ./ml.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./sv.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  18547 bytes for ./sv.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./cs.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  19761 bytes for ./cs.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./km.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  21514 bytes for ./km.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ko.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  14183 bytes for ./ko.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./zh-Hant.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  8006 bytes for ./zh-Hant.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./hu.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  10448 bytes for ./hu.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ka.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  14201 bytes for ./ka.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./Assets.car ... 
+2024-12-18 06:20:16 +0000  111056 bytes for ./Assets.car
+2024-12-18 06:20:16 +0000  copying file ./tr.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  20486 bytes for ./tr.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./pl.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  18584 bytes for ./pl.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2024-12-18 06:20:16 +0000  4411 bytes for ./AppIcon76x76@2x~ipad.png
+2024-12-18 06:20:16 +0000  copying file ./pt-BR.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  20186 bytes for ./pt-BR.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./vi.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  20359 bytes for ./vi.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./ru.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  22991 bytes for ./ru.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./af.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  8588 bytes for ./af.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./SwiftSoup_SwiftSoup.bundle/PrivacyInfo.xcprivacy ... 
+2024-12-18 06:20:16 +0000  391 bytes for ./SwiftSoup_SwiftSoup.bundle/PrivacyInfo.xcprivacy
+2024-12-18 06:20:16 +0000  copying file ./SwiftSoup_SwiftSoup.bundle/Info.plist ... 
+2024-12-18 06:20:16 +0000  686 bytes for ./SwiftSoup_SwiftSoup.bundle/Info.plist
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/0.6.7.mom ... 
+2024-12-18 06:20:16 +0000  12269 bytes for ./Aidoku.momd/0.6.7.mom
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/0.6.10.mom ... 
+2024-12-18 06:20:16 +0000  13256 bytes for ./Aidoku.momd/0.6.10.mom
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/VersionInfo.plist ... 
+2024-12-18 06:20:16 +0000  2459 bytes for ./Aidoku.momd/VersionInfo.plist
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/Shared.mom ... 
+2024-12-18 06:20:16 +0000  7709 bytes for ./Aidoku.momd/Shared.mom
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/0.6.mom ... 
+2024-12-18 06:20:16 +0000  12060 bytes for ./Aidoku.momd/0.6.mom
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/0.5.mom ... 
+2024-12-18 06:20:16 +0000  8430 bytes for ./Aidoku.momd/0.5.mom
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/0.6.10.omo ... 
+2024-12-18 06:20:16 +0000  25344 bytes for ./Aidoku.momd/0.6.10.omo
+2024-12-18 06:20:16 +0000  copying file ./Aidoku.momd/0.6.8.mom ... 
+2024-12-18 06:20:16 +0000  13142 bytes for ./Aidoku.momd/0.6.8.mom
+2024-12-18 06:20:16 +0000  copying file ./fr.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  21321 bytes for ./fr.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./id.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  11053 bytes for ./id.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./nl.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  15716 bytes for ./nl.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./th.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  19872 bytes for ./th.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./pt.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  18531 bytes for ./pt.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/AsyncDisplayKit.framework/_CodeSignature/CodeResources ... 
+2024-12-18 06:20:16 +0000  2100 bytes for ./Frameworks/AsyncDisplayKit.framework/_CodeSignature/CodeResources
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit ... 
+2024-12-18 06:20:16 +0000  2271664 bytes for ./Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/AsyncDisplayKit.framework/configuration.json ... 
+2024-12-18 06:20:16 +0000  1029 bytes for ./Frameworks/AsyncDisplayKit.framework/configuration.json
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/AsyncDisplayKit.framework/Info.plist ... 
+2024-12-18 06:20:16 +0000  765 bytes for ./Frameworks/AsyncDisplayKit.framework/Info.plist
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/libswift_Concurrency.dylib ... 
+2024-12-18 06:20:16 +0000  557584 bytes for ./Frameworks/libswift_Concurrency.dylib
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/CWasm3.framework/_CodeSignature/CodeResources ... 
+2024-12-18 06:20:16 +0000  1798 bytes for ./Frameworks/CWasm3.framework/_CodeSignature/CodeResources
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/CWasm3.framework/CWasm3 ... 
+2024-12-18 06:20:16 +0000  169040 bytes for ./Frameworks/CWasm3.framework/CWasm3
+2024-12-18 06:20:16 +0000  copying file ./Frameworks/CWasm3.framework/Info.plist ... 
+2024-12-18 06:20:16 +0000  752 bytes for ./Frameworks/CWasm3.framework/Info.plist
+2024-12-18 06:20:16 +0000  copying file ./embedded.mobileprovision ... 
+2024-12-18 06:20:16 +0000  48477 bytes for ./embedded.mobileprovision
+2024-12-18 06:20:16 +0000  copying file ./ro.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  19423 bytes for ./ro.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./Info.plist ... 
+2024-12-18 06:20:16 +0000  2850 bytes for ./Info.plist
+2024-12-18 06:20:16 +0000  copying file ./PkgInfo ... 
+2024-12-18 06:20:16 +0000  8 bytes for ./PkgInfo
+2024-12-18 06:20:16 +0000  copying file ./hr.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  19862 bytes for ./hr.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000  copying file ./hi.lproj/Localizable.strings ... 
+2024-12-18 06:20:16 +0000  14266 bytes for ./hi.lproj/Localizable.strings
+2024-12-18 06:20:16 +0000 [MT] /usr/bin/ditto exited with 0
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2024-12-18 06:20:16 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x600003427900; bundleID='com.facebook.AsyncDisplayKit', path='<DVTFilePath:0x600003b135d0:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003363750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025bc780; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.facebook.AsyncDisplayKit', executablePath='<DVTFilePath:0x600003417240:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit'>', hardenedRuntime='0'>'>
+2024-12-18 06:20:16 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x600003438a20; bundleID='CWasm3', path='<DVTFilePath:0x600003b13950:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003368460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025adec0; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='CWasm3', executablePath='<DVTFilePath:0x600003417c60:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework/CWasm3'>', hardenedRuntime='0'>'>
+2024-12-18 06:20:16 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x600003427ae0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000033637a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025adec0; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2024-12-18 06:20:16 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-12-18 06:20:16 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-12-18 06:20:16 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-12-18 06:20:16 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2024-12-18 06:20:16 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2024-12-18 06:20:16 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2024-12-18 06:20:16 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2024-12-18 06:20:16 +0000 [MT] Item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Archs to thin for item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework are ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit' '-verify_arch' 'arm64e'
+2024-12-18 06:20:16 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-12-18 06:20:16 +0000 [MT] Skipping architecture thinning for item "AsyncDisplayKit" because arch "arm64e" wasn't found
+2024-12-18 06:20:16 +0000 [MT] Item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Archs to thin for item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework are ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/CWasm3.framework/CWasm3' '-verify_arch' 'arm64e'
+2024-12-18 06:20:16 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-12-18 06:20:16 +0000 [MT] Skipping architecture thinning for item "CWasm3" because arch "arm64e" wasn't found
+2024-12-18 06:20:16 +0000 [MT] Item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Archs to thin for item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib are ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib' '-verify_arch' 'arm64e'
+2024-12-18 06:20:16 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-12-18 06:20:16 +0000 [MT] Skipping architecture thinning for item "libswift_Concurrency.dylib" because arch "arm64e" wasn't found
+2024-12-18 06:20:16 +0000 [MT] Item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Archs to thin for item /Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app are ["arm64e"]
+2024-12-18 06:20:16 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Aidoku' '-verify_arch' 'arm64e'
+2024-12-18 06:20:16 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-12-18 06:20:16 +0000 [MT] Skipping architecture thinning for item "Aidoku" because arch "arm64e" wasn't found
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionODRStep
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2024-12-18 06:20:16 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2024-12-18 06:20:16 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2024-12-18 06:20:16 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2024-12-18 06:20:16 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2024-12-18 06:20:16 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003427900; bundleID='com.facebook.AsyncDisplayKit', path='<DVTFilePath:0x600003b135d0:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003363750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025ad080; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.facebook.AsyncDisplayKit', executablePath='<DVTFilePath:0x600003417240:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit'>', hardenedRuntime='0'>'>: {
+}
+2024-12-18 06:20:16 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003427900; bundleID='com.facebook.AsyncDisplayKit', path='<DVTFilePath:0x600003b135d0:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003363750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025add40; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.facebook.AsyncDisplayKit', executablePath='<DVTFilePath:0x600003417240:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit'>', hardenedRuntime='0'>'> are: {
+}
+2024-12-18 06:20:16 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003427900; bundleID='com.facebook.AsyncDisplayKit', path='<DVTFilePath:0x600003b135d0:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003363750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025ad5c0; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.facebook.AsyncDisplayKit', executablePath='<DVTFilePath:0x600003417240:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit'>', hardenedRuntime='0'>'> to: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~yBResM
+2024-12-18 06:20:16 +0000 [MT] invoking codesign: <NSConcreteTask: 0x60000309e350; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9879D418A502BE1D73C7896571D00F69D8BCD425,
+    "--entitlements",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~yBResM",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework"
+)'>
+2024-12-18 06:20:16 +0000 [MT] codesign output: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework: replacing existing signature
+/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework: signed bundle with Mach-O thin (arm64) [com.facebook.AsyncDisplayKit]
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003438a20; bundleID='CWasm3', path='<DVTFilePath:0x600003b13950:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003368460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025c8780; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='CWasm3', executablePath='<DVTFilePath:0x600003417c60:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework/CWasm3'>', hardenedRuntime='0'>'>: {
+}
+2024-12-18 06:20:16 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003438a20; bundleID='CWasm3', path='<DVTFilePath:0x600003b13950:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003368460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025c8a80; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='CWasm3', executablePath='<DVTFilePath:0x600003417c60:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework/CWasm3'>', hardenedRuntime='0'>'> are: {
+}
+2024-12-18 06:20:16 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003438a20; bundleID='CWasm3', path='<DVTFilePath:0x600003b13950:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003368460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025c8d80; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='CWasm3', executablePath='<DVTFilePath:0x600003417c60:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/CWasm3.framework/CWasm3'>', hardenedRuntime='0'>'> to: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~0WWPVH
+2024-12-18 06:20:16 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000030b33e0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9879D418A502BE1D73C7896571D00F69D8BCD425,
+    "--entitlements",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~0WWPVH",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/CWasm3.framework"
+)'>
+2024-12-18 06:20:16 +0000 [MT] codesign output: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/CWasm3.framework: replacing existing signature
+/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/CWasm3.framework: signed bundle with Mach-O thin (arm64) [CWasm3]
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003427ae0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000033637a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025ad440; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-12-18 06:20:16 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003427ae0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000033637a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025ae040; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-12-18 06:20:16 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003427ae0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000033637a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025bd200; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='(null)', teamID='D8KGVS7M86', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x600003b13870:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> to: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~NFF3XG
+2024-12-18 06:20:16 +0000 [MT] invoking codesign: <NSConcreteTask: 0x60000308b5c0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9879D418A502BE1D73C7896571D00F69D8BCD425,
+    "--entitlements",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~NFF3XG",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib"
+)'>
+2024-12-18 06:20:16 +0000 [MT] codesign output: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib: replacing existing signature
+/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib: signed Mach-O thin (arm64) [com.apple.dt.runtime.swiftConcurrency]
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000034396e0; bundleID='tss.skitty.Aidoku', path='<DVTFilePath:0x600003480060:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000033740a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025adec0; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='{
+    "application-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "aps-environment" = development;
+    "com.apple.developer.icloud-container-identifiers" =     (
+        "iCloud.tss.skitty.Aidoku.cloud"
+    );
+    "com.apple.developer.icloud-services" =     (
+        CloudKit
+    );
+    "com.apple.developer.team-identifier" = D8KGVS7M86;
+    "com.apple.developer.ubiquity-kvstore-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "get-task-allow" = 1;
+}', teamID='D8KGVS7M86', identifier='tss.skitty.Aidoku', executablePath='<DVTFilePath:0x600003410f60:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Aidoku'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "aps-environment" = development;
+    "com.apple.developer.icloud-container-environment" = Development;
+    "com.apple.developer.icloud-container-identifiers" =     (
+        "iCloud.tss.skitty.Aidoku.cloud"
+    );
+    "com.apple.developer.icloud-services" =     (
+        CloudKit
+    );
+    "com.apple.developer.team-identifier" = D8KGVS7M86;
+    "com.apple.developer.ubiquity-kvstore-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "get-task-allow" = 1;
+}
+2024-12-18 06:20:16 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-12-18 06:20:16 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000034396e0; bundleID='tss.skitty.Aidoku', path='<DVTFilePath:0x600003480060:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000033740a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025ad440; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='{
+    "application-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "aps-environment" = development;
+    "com.apple.developer.icloud-container-identifiers" =     (
+        "iCloud.tss.skitty.Aidoku.cloud"
+    );
+    "com.apple.developer.icloud-services" =     (
+        CloudKit
+    );
+    "com.apple.developer.team-identifier" = D8KGVS7M86;
+    "com.apple.developer.ubiquity-kvstore-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "get-task-allow" = 1;
+}', teamID='D8KGVS7M86', identifier='tss.skitty.Aidoku', executablePath='<DVTFilePath:0x600003410f60:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Aidoku'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "aps-environment" = development;
+    "com.apple.developer.icloud-container-environment" = Development;
+    "com.apple.developer.icloud-container-identifiers" =     (
+        "iCloud.tss.skitty.Aidoku.cloud"
+    );
+    "com.apple.developer.icloud-services" =     (
+        CloudKit
+    );
+    "com.apple.developer.team-identifier" = D8KGVS7M86;
+    "com.apple.developer.ubiquity-kvstore-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "get-task-allow" = 1;
+}
+2024-12-18 06:20:16 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000034396e0; bundleID='tss.skitty.Aidoku', path='<DVTFilePath:0x600003480060:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000033740a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000025c8840; name='Apple Development: Javed Khan (JW4G4GG2W2)', hash='9879D418A502BE1D73C7896571D00F69D8BCD425', serialNumber='11DB5CADFE14E5D5892B2636F9A2BD60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-05-27 11:31:03 +0000''>', entitlements='{
+    "application-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "aps-environment" = development;
+    "com.apple.developer.icloud-container-identifiers" =     (
+        "iCloud.tss.skitty.Aidoku.cloud"
+    );
+    "com.apple.developer.icloud-services" =     (
+        CloudKit
+    );
+    "com.apple.developer.team-identifier" = D8KGVS7M86;
+    "com.apple.developer.ubiquity-kvstore-identifier" = "D8KGVS7M86.tss.skitty.Aidoku";
+    "get-task-allow" = 1;
+}', teamID='D8KGVS7M86', identifier='tss.skitty.Aidoku', executablePath='<DVTFilePath:0x600003410f60:'/Users/javed00700/Desktop/Javed Test/Aidoku/build/Aidoku.xcarchive/Products/Applications/Aidoku.app/Aidoku'>', hardenedRuntime='0'>'> to: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~JEhtk0
+2024-12-18 06:20:16 +0000 [MT] invoking codesign: <NSConcreteTask: 0x60000309e350; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9879D418A502BE1D73C7896571D00F69D8BCD425,
+    "--entitlements",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/entitlements~~~JEhtk0",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app"
+)'>
+2024-12-18 06:20:17 +0000 [MT] codesign output: /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app: replacing existing signature
+/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app: signed app bundle with Mach-O thin (arm64) [tss.skitty.Aidoku]
+2024-12-18 06:20:17 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2024-12-18 06:20:17 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-12-18 06:20:17 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-12-18 06:20:17 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-12-18 06:20:17 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-12-18 06:20:17 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2024-12-18 06:20:17 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root' '/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Packages/Aidoku.ipa'
+2024-12-18 06:20:17 +0000  >>> Copying /var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root 
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/de.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  19030 bytes for ./Payload/Aidoku.app/de.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/_CodeSignature/CodeResources ... 
+2024-12-18 06:20:17 +0000  22751 bytes for ./Payload/Aidoku.app/_CodeSignature/CodeResources
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ur.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  5189 bytes for ./Payload/Aidoku.app/ur.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/he.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  15335 bytes for ./Payload/Aidoku.app/he.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ar.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  18266 bytes for ./Payload/Aidoku.app/ar.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/el.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  5806 bytes for ./Payload/Aidoku.app/el.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/zh-Hans.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  11963 bytes for ./Payload/Aidoku.app/zh-Hans.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ja.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  14272 bytes for ./Payload/Aidoku.app/ja.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ja.lproj/InfoPlist.strings ... 
+2024-12-18 06:20:17 +0000  73 bytes for ./Payload/Aidoku.app/ja.lproj/InfoPlist.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/sq.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  21098 bytes for ./Payload/Aidoku.app/sq.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/en.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  14415 bytes for ./Payload/Aidoku.app/en.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/en.lproj/InfoPlist.strings ... 
+2024-12-18 06:20:17 +0000  75 bytes for ./Payload/Aidoku.app/en.lproj/InfoPlist.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/uk.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  21819 bytes for ./Payload/Aidoku.app/uk.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/nb-NO.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  6355 bytes for ./Payload/Aidoku.app/nb-NO.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/es.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  20929 bytes for ./Payload/Aidoku.app/es.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/sw.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  65 bytes for ./Payload/Aidoku.app/sw.lproj/Localizable.strings
+copying file ./Payload/Aidoku.app/Aidoku ... 
+2024-12-18 06:20:17 +0000  4982080 bytes for ./Payload/Aidoku.app/Aidoku
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/eo.lproj/Localizable.strings ... 
+5916 bytes for ./Payload/Aidoku.app/eo.lproj/Localizable.strings
+copying file ./Payload/Aidoku.app/it.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  17389 bytes for ./Payload/Aidoku.app/it.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/bg.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  23403 bytes for ./Payload/Aidoku.app/bg.lproj/Localizable.strings
+copying file ./Payload/Aidoku.app/AppIcon60x60@2x.png ... 
+2024-12-18 06:20:17 +0000  3983 bytes for ./Payload/Aidoku.app/AppIcon60x60@2x.png
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ZIPFoundation_ZIPFoundation.bundle/PrivacyInfo.xcprivacy ... 
+599 bytes for ./Payload/Aidoku.app/ZIPFoundation_ZIPFoundation.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/Aidoku.app/ZIPFoundation_ZIPFoundation.bundle/Info.plist ... 
+2024-12-18 06:20:17 +0000  702 bytes for ./Payload/Aidoku.app/ZIPFoundation_ZIPFoundation.bundle/Info.plist
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/sr.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  22262 bytes for ./Payload/Aidoku.app/sr.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ne.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  22124 bytes for ./Payload/Aidoku.app/ne.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ml.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  815 bytes for ./Payload/Aidoku.app/ml.lproj/Localizable.strings
+copying file ./Payload/Aidoku.app/sv.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  18547 bytes for ./Payload/Aidoku.app/sv.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/cs.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  19761 bytes for ./Payload/Aidoku.app/cs.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/km.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  21514 bytes for ./Payload/Aidoku.app/km.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ko.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  14183 bytes for ./Payload/Aidoku.app/ko.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/zh-Hant.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  8006 bytes for ./Payload/Aidoku.app/zh-Hant.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/hu.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  10448 bytes for ./Payload/Aidoku.app/hu.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ka.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  14201 bytes for ./Payload/Aidoku.app/ka.lproj/Localizable.strings
+copying file ./Payload/Aidoku.app/Assets.car ... 
+2024-12-18 06:20:17 +0000  111056 bytes for ./Payload/Aidoku.app/Assets.car
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/tr.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  20486 bytes for ./Payload/Aidoku.app/tr.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/pl.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  18584 bytes for ./Payload/Aidoku.app/pl.lproj/Localizable.strings
+copying file ./Payload/Aidoku.app/AppIcon76x76@2x~ipad.png ... 
+2024-12-18 06:20:17 +0000  4411 bytes for ./Payload/Aidoku.app/AppIcon76x76@2x~ipad.png
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/pt-BR.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  20186 bytes for ./Payload/Aidoku.app/pt-BR.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/vi.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  20359 bytes for ./Payload/Aidoku.app/vi.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ru.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  22991 bytes for ./Payload/Aidoku.app/ru.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/af.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  8588 bytes for ./Payload/Aidoku.app/af.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/SwiftSoup_SwiftSoup.bundle/PrivacyInfo.xcprivacy ... 
+2024-12-18 06:20:17 +0000  391 bytes for ./Payload/Aidoku.app/SwiftSoup_SwiftSoup.bundle/PrivacyInfo.xcprivacy
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/SwiftSoup_SwiftSoup.bundle/Info.plist ... 
+2024-12-18 06:20:17 +0000  686 bytes for ./Payload/Aidoku.app/SwiftSoup_SwiftSoup.bundle/Info.plist
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Aidoku.momd/0.6.7.mom ... 
+2024-12-18 06:20:17 +0000  12269 bytes for ./Payload/Aidoku.app/Aidoku.momd/0.6.7.mom
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Aidoku.momd/0.6.10.mom ... 
+2024-12-18 06:20:17 +0000  13256 bytes for ./Payload/Aidoku.app/Aidoku.momd/0.6.10.mom
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Aidoku.momd/VersionInfo.plist ... 
+2024-12-18 06:20:17 +0000  2459 bytes for ./Payload/Aidoku.app/Aidoku.momd/VersionInfo.plist
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Aidoku.momd/Shared.mom ... 
+2024-12-18 06:20:17 +0000  7709 bytes for ./Payload/Aidoku.app/Aidoku.momd/Shared.mom
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Aidoku.momd/0.6.mom ... 
+2024-12-18 06:20:17 +0000  12060 bytes for ./Payload/Aidoku.app/Aidoku.momd/0.6.mom
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Aidoku.momd/0.5.mom ... 
+2024-12-18 06:20:17 +0000  8430 bytes for ./Payload/Aidoku.app/Aidoku.momd/0.5.mom
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Aidoku.momd/0.6.10.omo ... 
+2024-12-18 06:20:17 +0000  25344 bytes for ./Payload/Aidoku.app/Aidoku.momd/0.6.10.omo
+copying file ./Payload/Aidoku.app/Aidoku.momd/0.6.8.mom ... 
+2024-12-18 06:20:17 +0000  13142 bytes for ./Payload/Aidoku.app/Aidoku.momd/0.6.8.mom
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/fr.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  21321 bytes for ./Payload/Aidoku.app/fr.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/id.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  11053 bytes for ./Payload/Aidoku.app/id.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/nl.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  15716 bytes for ./Payload/Aidoku.app/nl.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/th.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  19872 bytes for ./Payload/Aidoku.app/th.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/pt.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  18531 bytes for ./Payload/Aidoku.app/pt.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/_CodeSignature/CodeResources ... 
+2024-12-18 06:20:17 +0000  2100 bytes for ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/_CodeSignature/CodeResources
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit ... 
+2024-12-18 06:20:17 +0000  2271664 bytes for ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/AsyncDisplayKit
+copying file ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/configuration.json ... 
+2024-12-18 06:20:17 +0000  1029 bytes for ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/configuration.json
+copying file ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/Info.plist ... 
+765 bytes for ./Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework/Info.plist
+copying file ./Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib ... 
+2024-12-18 06:20:17 +0000  557584 bytes for ./Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/Frameworks/CWasm3.framework/_CodeSignature/CodeResources ... 
+2024-12-18 06:20:17 +0000  1798 bytes for ./Payload/Aidoku.app/Frameworks/CWasm3.framework/_CodeSignature/CodeResources
+copying file ./Payload/Aidoku.app/Frameworks/CWasm3.framework/CWasm3 ... 
+2024-12-18 06:20:17 +0000  169040 bytes for ./Payload/Aidoku.app/Frameworks/CWasm3.framework/CWasm3
+copying file ./Payload/Aidoku.app/Frameworks/CWasm3.framework/Info.plist ... 
+2024-12-18 06:20:17 +0000  752 bytes for ./Payload/Aidoku.app/Frameworks/CWasm3.framework/Info.plist
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/embedded.mobileprovision ... 
+2024-12-18 06:20:17 +0000  48477 bytes for ./Payload/Aidoku.app/embedded.mobileprovision
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/ro.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  19423 bytes for ./Payload/Aidoku.app/ro.lproj/Localizable.strings
+copying file ./Payload/Aidoku.app/Info.plist ... 
+2024-12-18 06:20:17 +0000  2850 bytes for ./Payload/Aidoku.app/Info.plist
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/PkgInfo ... 
+8 bytes for ./Payload/Aidoku.app/PkgInfo
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/hr.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  19862 bytes for ./Payload/Aidoku.app/hr.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000  copying file ./Payload/Aidoku.app/hi.lproj/Localizable.strings ... 
+2024-12-18 06:20:17 +0000  14266 bytes for ./Payload/Aidoku.app/hi.lproj/Localizable.strings
+2024-12-18 06:20:17 +0000 [MT] /usr/bin/ditto exited with 0
+2024-12-18 06:20:17 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2024-12-18 06:20:17 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-12-18 06:20:17 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-12-18 06:20:17 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003b2cd20:'/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/AsyncDisplayKit.framework'>
+2024-12-18 06:20:17 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003b33e90:'/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>
+2024-12-18 06:20:17 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600003b33e90:'/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/libswift_Concurrency.dylib'>
+2024-12-18 06:20:17 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003b24b60:'/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app/Frameworks/CWasm3.framework'>
+2024-12-18 06:20:17 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x60000349db00:'/var/folders/4t/fm025x0s4kg7t8fxrlt2gvzm0000gn/T/XcodeDistPipeline.~~~SDcAPZ/Root/Payload/Aidoku.app'>
+2024-12-18 06:20:17 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

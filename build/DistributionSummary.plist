@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Aidoku.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>2</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9879D418A502BE1D73C7896571D00F69D8BCD425</string>
+				<key>dateExpires</key>
+				<string>5/27/25</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9879D418A502BE1D73C7896571D00F69D8BCD425</string>
+						<key>dateExpires</key>
+						<string>5/27/25</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>AsyncDisplayKit.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D8KGVS7M86</string>
+						<key>name</key>
+						<string>JYOTHY LABS LIMITED</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9879D418A502BE1D73C7896571D00F69D8BCD425</string>
+						<key>dateExpires</key>
+						<string>5/27/25</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>CWasm3.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>D8KGVS7M86</string>
+						<key>name</key>
+						<string>JYOTHY LABS LIMITED</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>D8KGVS7M86.tss.skitty.Aidoku</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.icloud-container-environment</key>
+				<string>Development</string>
+				<key>com.apple.developer.icloud-container-identifiers</key>
+				<array>
+					<string>iCloud.tss.skitty.Aidoku.cloud</string>
+				</array>
+				<key>com.apple.developer.icloud-services</key>
+				<array>
+					<string>CloudKit</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>D8KGVS7M86</string>
+				<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+				<string>D8KGVS7M86.tss.skitty.Aidoku</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Aidoku.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>bcceddcb-8acb-4b92-8a98-aee4aca55b45</string>
+				<key>dateExpires</key>
+				<string>12/18/25</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: tss.skitty.Aidoku</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>D8KGVS7M86</string>
+				<key>name</key>
+				<string>JYOTHY LABS LIMITED</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>0.6.10</string>
+		</dict>
+	</array>
+</dict>
+</plist>
